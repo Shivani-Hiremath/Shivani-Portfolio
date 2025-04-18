@@ -3,106 +3,104 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Domain: Goldman Sachs</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <title>Goldman Sachs – Tech-Driven Business</title>
   <style>
     body {
-      background-color: #1c1c43;
       margin: 0;
-      font-family: 'Poppins', sans-serif;
-      color: #1a1a1a;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0d1117;
+      color: #c9d1d9;
       line-height: 1.6;
     }
 
     header {
-        background-color:rgb(175, 236, 253);
-        color: black;
-      padding: 1.5rem;
+      background-color: #161b22;
+      padding: 20px;
       text-align: center;
-      border-bottom: 3px solid #4fc3f7;
-      max-height: fit-content;
+      border-bottom: 2px solid #2f81f7;
     }
 
     header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-      font-weight: 600;
+      color:wheat;
+      font-size: 2rem;
     }
 
     .container {
       max-width: 1000px;
-      margin: 2rem auto;
-      padding: 0 1rem;
+      margin: 0 auto;
+      padding: 30px 20px;
     }
 
-    section {
-      background-color: white;
-      padding: 1.5rem;
-      margin-bottom: 2rem;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(129, 242, 238, 0.08);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-
-    section:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-    }
-
-    section h2 {
-      color: #0277bd;
-      margin-top: 0;
+    h2 {
+      color:bisque;
+      margin-top: 40px;
       font-size: 1.8rem;
     }
 
-    p {
-      font-size: 1.1rem;
-    }
-
-    .business-cases {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 1.5rem;
-    }
-
-    .card {
-      background-color:beige;
-      padding: 1.2rem;
-      border-radius: 10px;
-      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.06);
-      transition: all 0.3s ease;
-    }
-
-    .card:hover {
-      transform: scale(1.03);
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    }
-
-    .card h3 {
-      margin-top: 0;
-      color: #039be5;
+    h3 {
+      color: bisque;
+      margin-top: 20px;
       font-size: 1.3rem;
     }
 
-    .card p {
-      font-size: 1.05rem;
+    p, li {
+      font-size: 1rem;
+      color: white;
     }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .case-study {
+      background-color: #161b22;
+      border-left: 4px solid #2f81f7;
+      padding: 20px;
+      margin: 30px 0;
+      border-radius: 10px;
+    }
+
+    .emoji {
+      font-size: 1.5rem;
+      margin-right: 5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #8b949e;
+      border-top: 1px solid #21262d;
+      margin-top: 40px;
+    }
+    .quote-section {
+  background-color: #0d1117;
+  padding: 20px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  font-style: italic;
+  color:wheat;
+  font-size: 1.2em;
+  width:50%;
+}
+
+.quote footer {
+  text-align: right;
+  font-size: 1em;
+  color: #ded5d5;
+}
 
     @media (max-width: 600px) {
       header h1 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
       }
 
-      section {
-        padding: 1rem;
-      }
-
-      .card h3 {
-        font-size: 1.1rem;
-      }
-
-      .card p {
-        font-size: 1rem;
+      .container {
+        padding: 20px 10px;
       }
     }
   </style>
@@ -110,61 +108,153 @@
 <body>
 
   <header>
-    <h1> Domain: Goldman Sachs</h1>
+    <h1>Domain: Goldman Sachs </h1>
   </header>
-
+  <section class="quote-section">
+    <blockquote class="quote">
+      <p>“We are a technology company that does finance.”</p>
+      <footer>- Lloyd Blankfein, Former CEO, Goldman Sachs</footer>
+    </blockquote>
+  </section>
+  
   <div class="container">
-    <section>
-      <h2>Overview</h2>
-      <p>Goldman Sachs is one of the world’s top financial companies. It helps businesses, governments, and individuals manage money, invest wisely, and grow wealth.</p>
-      <p>Founded in 1869 in New York, it's known for smart advice, managing large investments, and using advanced technology to power financial operations.</p>
-    </section>
+    <h2>1. Company Overview</h2>
+    <p>
+      Goldman Sachs, founded in 1869, is a leading global investment bank and financial services firm headquartered in New York City, USA.
+      It operates in over 60 countries with more than 45,000 employees, out of which nearly 25% are engineers—a testament to its growing focus on technology.
+    </p>
 
-    <section>
-      <h2>What Does Goldman Sachs Do?</h2>
-      <p><strong>Investment Banking:</strong> Helping companies raise money.</p>
-      <p><strong>Trading:</strong> Buying and selling stocks, bonds, and currencies.</p>
-      <p><strong>Asset Management:</strong> Managing wealth for individuals and companies.</p>
-      <p><strong>Consumer Banking:</strong> Loans and savings for everyday users.</p>
-      <p>Goldman Sachs mixes finance with cutting-edge technology to lead in the financial world.</p>
-    </section>
+    <h3>🔹 Core Business Divisions:</h3>
+    <ul>
+      <li>Investment Banking – M&A advisory, IPOs, capital raising</li>
+      <li>Global Markets – Securities, commodities, currencies trading</li>
+      <li>Asset & Wealth Management – Institutional and individual asset management</li>
+      <li>Platform Solutions – New-age digital platforms including Marcus, Apple Card, and embedded finance APIs</li>
+    </ul>
 
-    <section>
-      <h2> Business Cases</h2>
-      <div class="business-cases">
-        <div class="card">
-          <h3> Apple Card</h3>
-          <p>Partnered with Apple to launch a smart credit card designed for iPhone users. It marked Goldman’s entry into consumer banking.</p>
-        </div>
-        <div class="card">
-          <h3> Marcus – Digital Bank</h3>
-          <p>Created Marcus, a digital-only bank offering personal loans and savings accounts with zero branch visits and a smooth user interface.</p>
-        </div>
-        <div class="card">
-          <h3> Alibaba IPO</h3>
-          <p>Helped Alibaba go public in 2014, raising $25 billion in one of the biggest IPOs in history.</p>
-        </div>
-        <div class="card">
-          <h3> Green Bonds</h3>
-          <p>Supports eco-friendly initiatives by issuing green bonds. Plans to invest $750 billion in sustainable finance by 2030.</p>
-        </div>
-      </div>
-    </section>
+    <p>
+      Goldman Sachs has strategically transitioned from being a purely finance-focused firm to a tech-centric institution, building scalable,
+      digital-first platforms and innovating in fields like cloud computing, real-time analytics, APIs, and machine learning.
+    </p>
 
-    <section>
-      <h2> Tech Innovations</h2>
-      <p><strong>☁️ Financial Cloud with AWS:</strong> Built a cloud-based platform for real-time financial data.</p>
-      <p><strong>🛠️ Open-Source Tools:</strong> Released tools like Legend and Alloy to improve data management in finance.</p>
-      <p><strong>🤖 AI & Machine Learning:</strong> Used for smarter investing, fraud detection, and risk prediction.</p>
-      <p><strong>🔗 Blockchain:</strong> Exploring digital currencies and safer online transactions.</p>
-      <p><strong>💬 AI Chat Support:</strong> Used in Marcus and Apple Card for 24/7 customer service via smart chatbots.</p>
-    </section>
+    <h2>2. Why Goldman Sachs?</h2>
+    <p>
+      Goldman Sachs was selected for this case study due to its unique blend of financial legacy and aggressive tech adoption.
+      It is a rare example of a firm that has:
+    </p>
+    <ul>
+      <li>Seamlessly combined traditional finance with modern engineering practices</li>
+      <li>Built consumer-facing digital banks, cloud-native transaction systems, and embedded finance products</li>
+      <li>Positioned itself as a technology-first enterprise in the banking world</li>
+    </ul>
+    <p>
+      The company’s internal philosophy—“We are a technology company that does finance”—makes it an ideal candidate to study how business problems
+      are solved through modern technologies at global scale.
+    </p>
 
-    <section>
-      <h2></h2>
-      <p>Goldman Sachs is not just a traditional bank. It’s a leader at the crossroads of finance, innovation, and smart strategy reshaping how money works in today’s digital world.</p>
-    </section>
+    <h2>3. Business Case Studies</h2>
+
+    <div class="case-study">
+      <h3><span class="emoji">🔐</span>1. Apple Card – A Smart Credit Card for iPhone Users</h3>
+      <p><strong>What it is:</strong> A digital-first credit card launched in partnership with Apple, designed to be used primarily via the Wallet app on iPhones.</p>
+      <p><strong>How Technology Made It Happen:</strong></p>
+      <ul>
+        <li>Goldman built a modern, scalable <strong>cloud-based core banking system</strong> from scratch, supporting <strong>real-time</strong> approvals, balance updates, and payments.</li>
+<li>Used Apple’s iOS SDKs and APIs to integrate the card into the Wallet app, enabling users to manage everything without a <strong>physical branch</strong>.</li>
+<li>Implemented <strong>real-time data processing pipelines</strong> to categorize transactions and display them with <strong>color-coded insights</strong>.</li>
+<li>Every transaction is secured using Apple Pay <strong>tokenization</strong> and <strong>dynamic security codes</strong> with <strong>biometric authentication</strong> (Face ID/Touch ID).</li>
+<li>Used APIs and <strong>microservices</strong> to isolate components (credit scoring, payments, notifications), ensuring quick updates and reliability.</li>
+
+      </ul>
+    </div>
+
+    <div class="case-study">
+      <h3><span class="emoji">🏦</span>2. Marcus – Goldman’s Digital Consumer Bank</h3>
+      <p><strong>What it is:</strong> A digital-only bank offering loans, savings, and investments through a user-friendly interface.</p>
+      <p><strong>How Technology Made It Happen:</strong></p>
+      <ul>
+        <li>Cloud-native build, likely on AWS</li>
+        <li>Frontend using React.js or similar</li>
+        <li>AI-powered credit scoring and loan approval</li>
+        <li>Chatbots via NLP (e.g., Google Dialogflow)</li>
+        <li>Automated backend workflows + personalization engines</li>
+      </ul>
+    </div>
+
+    <div class="case-study">
+      <h3><span class="emoji">🌍</span>3. Alibaba IPO – One of the Largest IPOs in History ($25B)</h3>
+      <p><strong>What it is:</strong> Goldman was a lead underwriter in Alibaba’s $25B IPO in 2014.</p>
+      <p><strong>How Technology Made It Happen:</strong></p>
+      <ul>
+        <li>Quant pricing via SecDB simulations</li>
+        <li>Low-latency order management systems</li>
+        <li>Secure digital platforms for investors</li>
+        <li>AI/NLP sentiment analysis from news & blogs</li>
+        <li>Enterprise cybersecurity for document protection</li>
+      </ul>
+    </div>
+
+    <div class="case-study">
+      <h3><span class="emoji">🌱</span>4. Green Bonds – Financing Sustainable Projects</h3>
+      <p><strong>What it is:</strong> Bonds issued to fund eco-projects like renewable energy, with $750B+ commitment by 2030.</p>
+      <p><strong>How Technology Made It Happen:</strong></p>
+      <ul>
+        <li>AI-driven ESG scoring systems</li>
+        <li>Dashboards for real-time impact tracking</li>
+        <li>Blockchain for transparent fund tracing</li>
+        <li>Sustainability platforms like Clarity AI & MSCI ESG</li>
+        <li>Rule-based reporting for ICMA/EU standards</li>
+      </ul>
+    </div>
+
+    <div class="case-study">
+      <h3><span class="emoji">💸</span>5. Transaction Banking (TxB) – B2B Payments & Treasury</h3>
+      <p><strong>What it is:</strong> Platform for enterprises to manage global payments, FX, and treasury operations.</p>
+      <p><strong>How Technology Made It Happen:</strong></p>
+      <ul>
+        <li>RESTful APIs for ERP integration</li>
+        <li>Kafka & RabbitMQ for event-driven alerts</li>
+        <li>Cloud-native 24/7 platform</li>
+        <li>Automated compliance engines (KYC, AML)</li>
+        <li>ISO 20022 payment messaging compliance</li>
+      </ul>
+    </div>
+
+    <div class="case-study">
+      <h3><span class="emoji">📊</span>6. Marquee – Institutional Client Portal</h3>
+      <p><strong>What it is:</strong> A self-service portal for hedge funds and asset managers to access tools, analytics, and market data.</p>
+      <p><strong>How Technology Made It Happen:</strong></p>
+      <ul>
+        <li>Streaming APIs for real-time pricing and volatility data</li>
+        <li>Python-powered quant tools for portfolio simulation</li>
+        <li>React.js + D3.js for interactive dashboards</li>
+        <li>Secure SAML/OAuth authentication</li>
+        <li>Integrated with internal risk/trading systems (e.g., SecDB)</li>
+      </ul>
+    </div>
+
+    <div class="case-study">
+      <h3><span class="emoji">🧠</span>7. AI/ML Innovation Lab – Intelligence at Scale</h3>
+      <p><strong>What it is:</strong> An internal lab focused on using AI/ML for fraud detection, automation, and decision support.</p>
+      <p><strong>How Technology Made It Happen:</strong></p>
+      <ul>
+        <li>Fraud detection via supervised learning on transaction data</li>
+        <li>OCR + BERT for smart document extraction</li>
+        <li>Conversational AI assistants for trend exploration</li>
+        <li>AutoML tools for non-engineer deployment</li>
+      </ul>
+    </div>
+
+    <h2>✅ Conclusion</h2>
+    <p>
+      Goldman Sachs proves that business innovation is no longer just about financial strategies it’s about the power of engineering, data,
+      and intelligent automation.
+    </p>
   </div>
+
+  <footer>
+    © 2025 Goldman Sachs Business Case Study – Designed by Shivani Hiremath
+  </footer>
 
 </body>
 </html>
